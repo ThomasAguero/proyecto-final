@@ -30,8 +30,8 @@ header{
 .navbar ul{
     display: flex;
     list-style-type: none;
-    gap: 6.25rem;
-    padding-left: 40px;
+    gap: 7.5rem;
+    padding-left: 60px;
     align-items: center;
 }
 .nav img{
@@ -275,10 +275,17 @@ header{
     height: 717px;
 }
 .section-nosotros article{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
     color: white;
     text-align: center;
+    padding: 120px 50px;
 }
 .section-nosotros h1{
+    padding-bottom: 60px;
     font-size: 80px;
     font-family: 'principal';
 }
