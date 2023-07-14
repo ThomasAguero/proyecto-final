@@ -23,7 +23,7 @@ header{
     justify-content: space-around;
     background-color: black;
     padding: .625rem 0rem;
-    border: 2px solid #F7941D;
+    
     
     
 }
@@ -45,6 +45,10 @@ header{
     font-size: 35px;
     font-family: 'poppins';
 }
+.nav1 img{
+    width: 157px;
+    height: 8.4375rem;
+}
 .navbar-redes{
     display: flex;
     align-items: center;
@@ -64,7 +68,7 @@ header{
     justify-content: space-around;
     background-color: black;
     padding: .625rem 0rem;
-    border: 2px solid #F7941D;
+    border-bottom: 2px solid #F7941D;
     
 }
 
@@ -106,6 +110,7 @@ header{
     background-size: cover;
     width: 100%;
     height: 100%;
+    border-top: 2px solid #F7941D;
 }
 .article-inicio{
     display: flex;
@@ -386,6 +391,44 @@ header{
         padding-right: 10px;
 
     }
+
+    .navbar-dos div ul{
+        gap: 50px;
+        padding-left: 0px;
+    }
+    .navbar-instagram{
+        padding-left: 10px;
+    }
+    .navbar-facebook{
+        padding-right: 10px;
+    }
+
+    .section-productos img{
+        width: 200px;
+        height: 200px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 50%;
+    }
+    .article-uno h2{
+        font-size: 40px;
+        padding: 10px;
+        text-align: center;
+    }
+    .article-uno p{
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+    }
+    .article-dos div h2{
+        font-size: 40px;
+        padding: 10px;
+        text-align: center;
+    }
+    .article-dos p{
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+    }
 }
 @media (max-width: 425px){
     .navbar{
@@ -419,6 +462,95 @@ header{
     }
     .article-inicio div a{
         font-size: 24px;
+    }
+
+    .navbar-dos{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 85% 15%;
+    }
+    .inicio{
+        grid-column: 1 / 2;
+        grid-row: 1 / 1;
+    }
+    .navbar-facebook{
+        grid-column: 1 / 2;
+        grid-row: 2 / 2;
+        padding: 30px 0px 20px 20px;
+    }
+    .navbar-instagram{
+        grid-column: 2 / 2;
+        grid-row: 2 / 2;
+        padding: 30px 20px 20px 0px;
+    }
+
+    .navbar-dos div ul{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 70% 15% 15%;
+        text-align: center;
+    }
+    .logo{
+        grid-row: 1 / 1;
+    }
+    .texto{
+        grid-row: 2 / 2;
+    }
+    .texto2{
+        grid-row: 3 / 3;
+    }
+
+    .section-productos img{
+        width: 180px;
+        height: 180px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 50%;
+    }
+    .texto-principal{
+        padding-bottom: 20px;
+    }
+    .texto-principal h1{
+        font-size: 35px;
+    }
+    .texto-principal h2{
+        font-size: 30px;
+    }
+    .article-uno div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: .3125rem;
+        padding-top: 30px;
+    }
+    .article-uno h2{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .article-uno p{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .article-dos div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: .3125rem;
+        padding-top: 30px;
+    }
+    .article-dos div h2{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .article-dos p{
+        font-size: 20px;
+        padding: 10px;
     }
 }
 
@@ -454,5 +586,99 @@ header{
     }
     .article-inicio div a{
         font-size: 24px;
+    }
+
+
+    .navbar-dos{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 85% 15%;
+    }
+    .inicio{
+        grid-column: 1 / 2;
+        grid-row: 1 / 1;
+    }
+    .navbar-facebook{
+        grid-column: 1 / 2;
+        grid-row: 2 / 2;
+        padding: 30px 0px 20px 20px;
+    }
+    .navbar-instagram{
+        grid-column: 2 / 2;
+        grid-row: 2 / 2;
+        padding: 30px 20px 20px 0px;
+    }
+
+    .navbar-dos div ul{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 70% 15% 15%;
+        text-align: center;
+    }
+    .logo{
+        grid-row: 1 / 1;
+    }
+    .texto{
+        grid-row: 2 / 2;
+    }
+    .texto2{
+        grid-row: 3 / 3;
+    }
+
+
+    .section-productos img{
+        width: 180px;
+        height: 180px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 50%;
+    }
+    .texto-principal{
+        padding-bottom: 20px;
+    }
+    .texto-principal h1{
+        font-size: 35px;
+    }
+    .texto-principal h2{
+        font-size: 30px;
+    }
+
+
+    .article-uno div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: .3125rem;
+        padding-top: 30px;
+    }
+    .article-uno h2{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .article-uno p{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+
+    .article-dos div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: .3125rem;
+        padding-top: 30px;
+    }
+    .article-dos div h2{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .article-dos p{
+        font-size: 20px;
+        padding: 10px;
     }
 }
