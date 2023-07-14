@@ -34,6 +34,12 @@ header{
     padding-left: 60px;
     align-items: center;
 }
+.navbar ul li a:hover{
+    color: #FBBD72;
+}
+.navbar ul li a:active{
+    color: #FAEAB1;
+}
 .nav img{
     width: 157px;
     height: 8.4375rem;
@@ -79,6 +85,12 @@ header{
     padding-left: 40px;
     align-items: center;
     
+}
+.navbar-dos div ul div li a:hover{
+    color: #FBBD72;
+}
+.navbar-dos div ul div li a:active{
+    color: #FAEAB1;
 }
 .navbar-instagram{
     display: flex;
@@ -144,6 +156,14 @@ header{
     border-radius: 10px;
     border: 2px solid black;
     
+}
+.article-inicio div a:hover{
+    background-color: #FBBD72;
+    border: 2px solid #482A25;
+    color: #472a25;
+}
+.article-inicio div a:active{
+    background-color: #FAEAB1;
 }
 .main-ubicacion{
     display: grid;
