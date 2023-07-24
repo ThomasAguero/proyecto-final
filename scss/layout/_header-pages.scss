@@ -1,0 +1,46 @@
+.navbar-dos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    padding: .625rem 0rem;
+    border-bottom: 2px solid #F7941D;
+    
+}
+
+.navbar-dos div ul{
+    display: flex;
+    list-style-type: none;
+    gap: 6.25rem;
+    padding-left: 40px;
+    align-items: center;
+    
+}
+.navbar-dos div ul div li a:hover{
+    color: #FBBD72;
+}
+.navbar-dos div ul div li a:active{
+    color: #FAEAB1;
+}
+.navbar-instagram{
+    display: flex;
+    align-items: center;
+    gap: 6.25rem;
+    padding-right: 30px;
+}
+.navbar-instagram img{
+    align-items: center;
+    width: 55px;
+    height: 55px;
+}
+.navbar-facebook{
+    display: flex;
+    align-items: center;
+    gap: 6.25rem;
+    padding-right: 30px;
+}
+.navbar-facebook img{
+    align-items: center;
+    width: 55px;
+    height: 55px;
+}

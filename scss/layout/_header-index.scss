@@ -1,0 +1,53 @@
+header{
+    width: 100%;
+    
+} 
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    padding: .625rem 0rem;
+    border-bottom: 2px solid #F7941D;    
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 7.5rem;
+    padding-left: 60px;
+    align-items: center;
+}
+.navbar ul li a:hover{
+    color: #FBBD72;
+}
+.navbar ul li a:active{
+    color: #FAEAB1;
+}
+.nav img{
+    width: 157px;
+    height: 8.4375rem;
+}
+.nav a{
+    text-decoration: none;
+    list-style: none;
+    color: #F7941D;
+    font-size: 35px;
+    font-family: 'poppins';
+}
+.nav1 img{
+    width: 157px;
+    height: 8.4375rem;
+}
+.navbar-redes{
+    display: flex;
+    align-items: center;
+    gap: 6.25rem;
+    padding-right: 30px;
+
+}
+.navbar-redes img{
+    align-items: center;
+    width: 55px;
+    height: 55px;
+}

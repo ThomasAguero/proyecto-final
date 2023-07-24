@@ -1,0 +1,38 @@
+.section-pie{
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FBBD72;
+    border-top: 2px solid #F7941D;
+}
+.article-principal img{
+    width: 155px;
+    height: 136px;
+}
+.article-principal p{
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'poppins';
+    color: black;
+}
+.article-pie{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.article-pie div{
+    display: flex;
+}
+.article-pie div img{
+    width: 34px;
+    height: 29px;
+}
+.article-pie p {
+    padding-left: 5px;
+    color: black;
+    font-size: 20px;
+    font-family: 'poppins';
+}

@@ -1,0 +1,56 @@
+@media (max-width: 768px){
+    .navbar ul{
+        gap: 1.5625rem;
+        padding-left: 30px;
+    }
+    .navbar-redes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-right: 10px;
+
+    }
+
+    .navbar-dos div ul{
+        gap: 50px;
+        padding-left: 0px;
+    }
+    .navbar-instagram{
+        padding-left: 10px;
+    }
+    .navbar-facebook{
+        padding-right: 10px;
+    }
+
+    .section-productos img{
+        width: 200px;
+        height: 200px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 50%;
+    }
+    .article-uno h2{
+        font-size: 40px;
+        padding: 10px;
+        text-align: center;
+    }
+    .article-uno p{
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+    }
+    .article-dos div h2{
+        font-size: 40px;
+        padding: 10px;
+        text-align: center;
+    }
+    .article-dos p{
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+    }
+    .main-ubicacion section article div iframe{
+        width: 300px;
+        height: 300px;
+    }
+}
