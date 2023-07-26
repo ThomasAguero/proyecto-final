@@ -334,6 +334,9 @@ header {
   font-size: 40px;
   font-family: 'poppins'; }
 
+.carousel {
+  border-top: 2px solid #F7941D; }
+
 .section-pie {
   padding: 20px 10px 10px 10px;
   display: flex;
@@ -420,7 +423,7 @@ header {
     width: 300px;
     height: 300px; } }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .navbar {
     display: grid;
     width: 100%;
@@ -430,13 +433,15 @@ header {
   .navbar ul {
     grid-row: 1 / 2;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 40px;
     padding-left: 5px; }
   .navbar-redes {
     grid-row: 2 / 2;
-    padding: 40px 10px 20px 10px;
+    padding: 10px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row; }
   .article-inicio h2 {
     padding-bottom: 60px;
