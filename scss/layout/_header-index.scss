@@ -3,10 +3,7 @@ header{
     
 } 
 .navbar{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    @include flex(row,wrap,space-around,center);
     background-color: black;
     padding: .625rem 0rem;
     border-bottom: 2px solid #F7941D;    

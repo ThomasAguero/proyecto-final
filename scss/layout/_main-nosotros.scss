@@ -1,9 +1,10 @@
 .section-nosotros{
-    background-image: url(../assets/img/photo-1587241321921-91a834d6d191.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/photo-1587241321921-91a834d6d191.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 717px;
+    border-bottom: 2px solid #F7941D;
 }
 .section-nosotros article{
     display: flex;
@@ -25,5 +26,7 @@
     font-family: 'poppins';
 }
 .carousel{
-    border-top: 2px solid #F7941D;
+    background-color: $background-main;
+    padding-top: 10px;
 }
+

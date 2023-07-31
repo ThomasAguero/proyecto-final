@@ -84,10 +84,10 @@
         padding-bottom: 20px;
     }
     .texto-principal h1{
-        font-size: 35px;
+        font-size: 25px;
     }
     .texto-principal h2{
-        font-size: 30px;
+        font-size: 17px;
     }
 
 
@@ -128,5 +128,39 @@
         padding: 10px;
     }
 
+    .article-formulario div form fieldset{
+        font-size: 17px;
+    }
+    .article-formulario div form fieldset input{
+        padding: 1px;
+        font-size: 12px;
+    }
+    .article-formulario div form fieldset div input{
+        width: 50%;
+        padding: 1px;
+        font-size: 15px;
+    } 
+
+    .section-ubicacion div img{
+        padding: 40px 0px 10px 0px;
+    }
+    .section-ubicacion div p{
+        font-size: 17px;
+    }
+    .main-ubicacion section article div iframe{
+        width: 150px;
+        height: 150px;
+    }
+
+    .section-nosotros h1{
+        font-size: 50px;
+    }
+    .section-nosotros article div p{
+        font-size: 17px;
+    }
+
+    .article-pie p {
+        font-size: 15px;
+    }
     
 }

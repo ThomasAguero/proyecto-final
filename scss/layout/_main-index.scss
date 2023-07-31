@@ -1,5 +1,5 @@
 .section-principal{
-    background-image: url("../assets/img/photo-1587241321921-91a834d6d191.avif");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/photo-1587241321921-91a834d6d191.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -40,10 +40,12 @@
     border: 2px solid black;
     
 }
-.article-inicio div a:hover{
-    background-color: #FBBD72;
-    border: 2px solid #482A25;
-    color: #472a25;
+.article-inicio div a{
+    &:hover{
+        background-color: $background-main;
+        border: 2px solid #482A25;
+        color: #472a25;
+    }
 }
 .article-inicio div a:active{
     background-color: #FAEAB1;

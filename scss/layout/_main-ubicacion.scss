@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 15% 85%;
-    background-color: #FBBD72;
+    background-color: $background-main;
 }
 .texto-principal{
     grid-column: 1 / 1;

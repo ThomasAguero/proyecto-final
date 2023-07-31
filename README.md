@@ -3,5 +3,7 @@
 
 ##Lenguajes aplicados
 
--HTML
+-HTML 5
 -CSS
+-SASS
+-Bootstrap
